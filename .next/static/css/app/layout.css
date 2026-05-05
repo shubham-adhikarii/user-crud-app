@@ -1,0 +1,202 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  color: #111;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.15s;
+}
+
+button:hover {
+  opacity: 0.82;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 14px;
+  transition: border-color 0.15s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 5px;
+}
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 44px 20px;
+}
+
+.page-heading {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.user-row {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  transition: box-shadow 0.15s;
+}
+
+.user-row:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.11);
+}
+
+.user-row h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.user-row p {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.btn-blue {
+  background: #4f46e5;
+  color: #fff;
+}
+
+.btn-red {
+  background: #ef4444;
+  color: #fff;
+}
+
+.btn-gray {
+  background: #e5e7eb;
+  color: #333;
+}
+
+.detail-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
+
+.detail-card h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.detail-card p {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.update-form {
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px 30px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.update-form h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 22px;
+  color: #4f46e5;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  padding: 11px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.banner.ok {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.banner.fail {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.loading {
+  text-align: center;
+  padding: 70px;
+  color: #9ca3af;
+  font-size: 15px;
+}
+
+.err {
+  text-align: center;
+  padding: 70px;
+  color: #ef4444;
+  font-size: 15px;
+}
+
